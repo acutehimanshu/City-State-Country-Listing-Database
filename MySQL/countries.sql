@@ -1,6 +1,6 @@
 -- Author: Himanshu Sharma
 -- Date: 22-Feb-2024
--- Description: This table stores information about the countries of the world, including the number of cities, states, and union territories.
+-- Description: This table stores information about the world's countries, including the number of cities, states, and union territories.
 
 -- Create a table named 'world_countries' to store information about the countries of the world.
 CREATE TABLE world_countries (
@@ -10,7 +10,7 @@ CREATE TABLE world_countries (
     name VARCHAR(255),
     -- The 'slug' column stores a unique identifier for the country.
     slug VARCHAR(255),
-    -- The 'area' column stores the total area of the country in square kilometers.
+    -- The 'area' column stores the country's total area in square kilometers.
     area_km2 INT,
     -- The 'population' column stores the total population of the country.
     population INT,
@@ -25,5 +25,9 @@ CREATE TABLE world_countries (
     -- The 'num_states' column stores the number of states in the country.
     num_states INT,
     -- The 'num_ut' column stores the number of union territories in the country.
-    num_ut INT
+    num_ut INT,
+    -- The 'continent_id' column stores the ID of the continent to which the country belongs.
+    continent_id INT,
+    -- The 'country_std_code' column stores the country's standard dialling code.
+    country_std_code VARCHAR(5)
 );

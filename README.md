@@ -1,6 +1,6 @@
 # Geographical Data Repository   
 ## List of Cities, States, Countries and Continentals 
-<hr>
+<hr> 
 ## Overview
  
 This repository contains a comprehensive list of cities, states, countries, and other geographical data. The data is provided in three formats: SQL, JSON, and CSV. The data is structured and linked to facilitate easy integration into databases and other systems.
